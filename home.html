@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Catálogo</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body onload="mostrarPeliculas()">
+
+    <h1>Catálogo 🎬</h1>
+
+    <button onclick="mostrarPeliculas()">Inicio</button>
+    <button onclick="verFavoritos()">⭐ Favoritos</button>
+    <button onclick="logout()">Cerrar sesión 🚪</button>
+
+    <div id="catalogo"></div>
+
+    <script src="js/api.js"></script>
+    <script src="js/catalogo.js"></script>
+
+</body>
+</html>
